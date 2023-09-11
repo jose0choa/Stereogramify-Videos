@@ -2,7 +2,7 @@ import cv2
 import os
 
 # Directory containing the image frames
-frames_directory = '/Users/joseochoa/Desktop/Stereogram Project/output_stereograms'
+frames_directory = '..path to folder with frames'
 output_video_path = 'output_video.mp4'
 
 # Get a list of all image filenames in the directory
