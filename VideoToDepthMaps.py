@@ -9,7 +9,7 @@ processor = DPTImageProcessor.from_pretrained("Intel/dpt-large")
 model = DPTForDepthEstimation.from_pretrained("Intel/dpt-large")
 
 # Open the video file
-video_path = '/Users/joseochoa/Desktop/Stereogram Project/Tony Ferguson knocked out by Mike Chandler   UFC 274   Great Knockout copy.mp4'
+video_path = '... path to file'
 cap = cv2.VideoCapture(video_path)
 
 # Check if the video file was opened successfully
